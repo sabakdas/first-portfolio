@@ -6,6 +6,12 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* header */
+.header{
+  background-image: url("../images/developer.png"),url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left ,bottom right;
+}
 /* nav styles */
 nav{
     display: flex;
@@ -37,6 +43,9 @@ nav li a{
 .dark-2{
   color:#474747;
 }
+.dark-3{
+  color:#757575;
+}
 .btn-primary{
   background-color: #FD6E0A;
   font-weight: 700;
@@ -45,4 +54,29 @@ nav li a{
   border-radius: 5px;
   font-size: 20px;
   border:none;
+}
+/* banner styles */
+.banner-greetings{
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-content{
+  width: 585px;
+}
+.banner-title{
+  font-size:85px;
+  font-weight: bold;
+}
+.banner-description{
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+.banner-profile-pic{
+  width: 580px;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin:0 35px 0 230px;
 }
