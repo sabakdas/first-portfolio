@@ -95,7 +95,7 @@ nav li a{
 }
 .main{
   max-width: 1140px;
-  margin:0 auto;
+  margin:0px auto;
 }
 .section-description{
   font-size: 18px;
@@ -138,4 +138,28 @@ main section{
   margin-top: 130px;
   margin-bottom:130px;
 }
+/* resume styles */
+.resume-container{
+  display: flex;
+  gap:24px;
 
+}
+.experience-sub-title{
+  font-size:20px ;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.experience-description,.experience-sub-title{
+  color:#757575;
+}
+.resume{
+  margin:130px 230px;
+  
+}
+.section-title{
+  margin-bottom:113px;
+  text-align: center;
+}
+.resume-download-cv{
+  margin-top: 50px;
+}
